@@ -1,5 +1,5 @@
 import './App.css';
-<link href="heroes.css" rel="stylesheet"></link>
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -11,7 +11,7 @@ function App() {
         <h1 class="titulo">POMODORO TIMER</h1>
         <div className="Card">
           <h2>25:00</h2>
-          
+
 
 
           <button className="btn-primary" type="button">START</button>
